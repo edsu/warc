@@ -1,0 +1,8 @@
+language: go
+go: 
+- 1.1
+- tip
+
+script:
+  - go list -f '{{range .XTestImports}}{{.}}{{"\n"}}{{end}}' ./... | xargs go get
+  - go test ./...
