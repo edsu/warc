@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-// NewWarcReader constructs a WARC Reader for a given input stream.
+// NewWarcReader constructs a WARC Reader for a given gzip input stream.
 func NewWarcReader(reader io.Reader) *WarcReader {
 	wr, _ := gzip.NewReader(reader)
 	br := bufio.NewReader(wr)
