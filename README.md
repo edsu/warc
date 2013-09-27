@@ -12,4 +12,4 @@ License
 
 * CC0
 
- [1]. http://bibnum.bnf.fr/WARC/warc_ISO_DIS_28500.pdf 
+ [1]: http://bibnum.bnf.fr/WARC/warc_ISO_DIS_28500.pdf 
