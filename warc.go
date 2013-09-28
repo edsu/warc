@@ -2,12 +2,13 @@ package warc
 
 import (
 	"bufio"
-	"compress/gzip"
 	"errors"
 	"io"
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/eikeon/gzip"
 )
 
 // NewWarcReader constructs a WARC Reader for a given input stream.
